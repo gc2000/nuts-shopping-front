@@ -18,7 +18,11 @@ class App extends React.Component {
     };
   }
   createOrder = (order) => {
-    alert("Need to save order for " + order.name);
+    alert(
+      "Dear " +
+        order.name +
+        ", thanks for shopping! You will enjoy our best quality nuts in 12 hours."
+    );
   };
   removeFromCart = (product) => {
     const cartItems = this.state.cartItems.slice();
