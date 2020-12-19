@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Andika+New+Basic&display=swap");
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Roboto:wght@400;500&display=swap'); */
 html {
   font-size: 62.5%;
@@ -14,8 +15,8 @@ input,
 select,
 button,
 textarea {
-  font-size: 1.6rem;
-  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  font-family: "Andika New Basic", Arial, Helvetica, sans-serif;
 }
 .grid-container {
   display: grid;
@@ -85,6 +86,8 @@ footer {
   flex: 0 1 29rem;
   height: 47rem;
   padding: 1rem;
+  border: 0.1rem #c0c0c0 solid;
+  text-align: center;
 }
 .product {
   display: flex;
@@ -107,7 +110,7 @@ footer {
   flex: 1;
 }
 .product-price div {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 .button {
   padding: 1rem;
