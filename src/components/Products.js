@@ -20,7 +20,7 @@ export default class Products extends Component {
   render() {
     const { product } = this.state;
     return (
-      <div>
+      <div class="container-fluid">
         <Fade bottom cascade>
           <ul className="products">
             {this.props.products.map((product) => (
@@ -31,8 +31,12 @@ export default class Products extends Component {
                     onClick={() => this.openModal(product)}
                   >
                     <img src={product.image} alt={product.title}></img>
-                    <p>{product.title}</p>
+                    <p className="product-title">{product.title}</p>
                   </a>
+                  <p className="product-text">
+                    {product.description.substring(0, 100)}
+                    {"..."}
+                  </p>
                   <div className="product-price">
                     <div>{formatCurrency(product.price)}</div>
                     <button
@@ -61,8 +65,8 @@ export default class Products extends Component {
                   </p>
                   <p>{product.description}</p>
                   <p>
-                    Available Sizes:{" "}
-                    {product.availableSizes.map((x) => (
+                    Category:{" "}
+                    {product.category.map((x) => (
                       <span>
                         {" "}
                         <button className="button"> {x} </button>
