@@ -6,6 +6,7 @@
       "title": "Organic Almonds (Raw, No Shell)",
       "description": "Our raw organic almonds are just that—truly raw and unpasteurized—and certified organic. Perfectly delicious and loaded with nutrients, these unpasteurized almonds are among our best selling products. Great raw almonds like these can be difficult to get in the United States, as California almonds marketed as “raw” are often steam-pasteurized, but our non-pasteurized almonds are imported from Spain.",
       "category": ["Almonds"],
+      "promotion": ["xmas"],
       "price": 19.9
     },
     {
@@ -14,6 +15,7 @@
       "title": "Raw Almonds (No Shell)",
       "description": "Our Raw Almonds are among the largest you can get anywhere. We only source 20/22 nonpareil almonds grown in California. Our farmers weed out the dull almonds so each morsel that makes it to your bag is sweet, meaty and never bitter. Raw Almonds make a healthy snack that’s packed with protein, fiber, calcium, zinc, and antioxidants.",
       "category": ["Almonds"],
+      "promotion": ["xmas", "mom"],
       "price": 18.9
     },
     {
@@ -22,6 +24,7 @@
       "title": "Dark Chocolate-Covered Almonds",
       "description": "Our dark chocolate-covered almonds create a heavenly matrimony between fine nuts and rich chocolate. Dark chocolate-covered almonds (also known as dark chocolate almonds) are made with lush, semi-sweet dark chocolate and whole, dry-roasted almonds. Simultaneously simple and exquisite.",
       "category": ["Almonds"],
+      "promotion": ["mom"],
       "price": 14.9
     },
     {
@@ -30,6 +33,7 @@
       "title": "Roasted Pecans",
       "description": "We source our superior roasted pecan halves from Georgia planters and salt them for a simple yet supreme snack you’ll love. Enjoy our in-house roasted pecans in a snack mix or as a standalone nutty nosh. No matter how you pronounce it, “pecan” means one thing to us: pretty, darn delicious!",
       "category": ["Pecans"],
+      "promotion": ["mom"],
       "price": 25.9
     },
     {
@@ -38,6 +42,7 @@
       "title": "Hard Shell Pecans",
       "description": "Hard shell pecan enthusiasts know that these nuts have a discernibly sweeter taste than their shelled counterparts. These hard shell Stuart pecans make the perfect snack, punctuated with a satisfying “CRACK!” Plus, pecans are full of over 20 vitamins and minerals making them a healthy choice you can feel good about.",
       "category": ["Pecans"],
+      "promotion": [""],
       "price": 10.9
     },
     {
@@ -46,6 +51,7 @@
       "title": "Roasted Cashews",
       "description": "Looking for premium cashews that are just slightly salted? These are perfect for you! Jumbo cashews freshly roasted to perfection and then slightly salted to enhance a truly delicious taste. We roast our own nuts right in-house before they ship so you can taste the freshness.",
       "category": ["Cashews"],
+      "promotion": [""],
       "price": 49.9
     },
     {
@@ -54,6 +60,7 @@
       "title": "Honey Roasted Cashews",
       "description": "An exceptional product. Jumbo cashews roasted to perfection, then covered in a honey coating with a slight touch of salt. Honey roasted cashews are one of the best tasting products we sell!",
       "category": ["Cashews"],
+      "promotion": [""],
       "price": 19.9
     },
     {
@@ -62,6 +69,7 @@
       "title": "Dark Chocolate-Covered Cashews",
       "description": "Dark chocolate-covered cashews (or dark chocolate cashews) are the result of a decadent union between fine whole cashews and smooth dark chocolate. The combination is at once simple and scrumptious! Our customers rave about these for a reason. Choose an indulgence you can feel good about with our dark chocolate-covered cashews. Made with 52% dark chocolate.",
       "category": ["Cashews"],
+      "promotion": [""],
       "price": 19.9
     },
     {
@@ -70,6 +78,7 @@
       "title": "Milk Chocolate-Covered Cashews",
       "description": "Treat yourself to our milk chocolate-covered cashews: whole, roasted jumbo cashews embraced in our finest milk chocolate. Satisfy your milk chocolate craving with the savory taste of roasted cashews. Take care of the cashew lover in your life and present them with milk-chocolate covered cashews. Comes with about 125 pieces per pound.",
       "category": ["Cashews"],
+      "promotion": [""],
       "price": 19.9
     },
     {
@@ -78,6 +87,7 @@
       "title": "Sesame Teriyaki Almonds & Cashews",
       "description": "Sweet, tangy, and just the right touch of spice! These Sesame Teriyaki Almonds and Cashews deliver the best flavors of Asia, with a satisfying crunch anyone can enjoy. These nuts have been soaked and partially germinated before being dehydrated. This process removes bitter-tasting phytates which have been shown to block the assimilation of some vitamins and minerals in raw nuts. Right before they are dehydrated, the almonds and cashews are coated in an irresistible blend of ginger, maple, and wheat-free tamari. The teriyaki flavors are sealed in as the nuts themselves become even more tasty during drying. Packed with protein and bursting with flavor, this tempting nut mix hits the spot!",
       "category": ["Cashews"],
+      "promotion": [""],
       "price": 14.9
     },
     {
@@ -86,6 +96,7 @@
       "title": "Hazelnuts / Filberts (In Shell)",
       "description": "Harvested at just the right time, these hazelnuts (filberts) from Oregon are quite tasty and are immense in size. These are graded as Jumbo, which are just huge! Loaded with nutrition, raw filberts in the shell are fun to crack and even more fun to eat. One crunch and you’ll realize these are truly the best hazelnuts around.",
       "category": ["Hazelnuts"],
+      "promotion": [""],
       "price": 19.9
     },
     {
@@ -94,6 +105,7 @@
       "title": "Roasted Hazelnuts / Filberts (Salted)",
       "description": "The largest hazelnuts from Oregon are roasted and lightly salted with skin on (no shell). Nothing but gorgeous, golden-brown deliciousness. We roast our nuts to perfection right in-house so your filberts arrive at your door at peak freshness. Hazelnuts offer more than a rich, satisfying taste; they’re healthy, too. Get protein, fiber, iron, phosphorus and vitamins B, C and E in every serving of roasted hazelnuts.",
       "category": ["Hazelnuts"],
+      "promotion": [""],
       "price": 13.9
     },
     {
@@ -102,6 +114,7 @@
       "title": "Dark Chocolate Covered Hazelnuts",
       "description": "Our dark chocolate covered hazelnuts are sure to be a hit among hazelnuts lovers! Chocolate lovers will also enjoy the sweet nuttiness that hazelnuts bring to this unique treat. Our round roasted hazelnuts are generously dipped in luscious dark chocolate for a snack that wows.",
       "category": ["Hazelnuts"],
+      "promotion": [""],
       "price": 18.9
     },
     {
@@ -110,6 +123,7 @@
       "title": "Roasted Macadamia Nuts (Salted)",
       "description": "These salted macadamia nuts are supreme-sized and roasted to perfection. We roast these nuts right in-house and add a slight amount of salt for the perfect snack. Macadamia nuts are renowned for their sweet flavor. Enjoy this Hawaiian delicacy as a fine snack at home. Roasted macadamias are a snack you can feel good about, with vitamin A, plant-based healthy fats and iron in each bite.",
       "category": ["Macadamia Nuts"],
+      "promotion": [""],
       "price": 17.9
     },
     {
@@ -118,6 +132,7 @@
       "title": "Macadamia Nuts (In Shell)",
       "description": "You asked for em, we got em! Macadamia nuts in the shell…a serious rare treat! Macadamia nuts have an extremely hard shell that is very difficult to open and are best suited for tropical birds such as Macaws. (Who, by the way, LOVE THEM!)",
       "category": ["Macadamia Nuts"],
+      "promotion": [""],
       "price": 18.9
     },
     {
@@ -126,6 +141,7 @@
       "title": "Roasted Pistachios (Salted, In Shell)",
       "description": "These lightly salted Colossal Roasted Pistachios are wonderful and HUGE. At Nuts.com, we are proud of our nuts, and these roasted pistachios certainly take the cake, as they are the biggest and most delicious variety that we have seen in years! This is a naturally colored pistachio grown in California. Excellent to serve for all occasions. As the pistachio ripens the shell within splits, naturally indicating the proper harvest time.",
       "category": ["Pistachios"],
+      "promotion": [""],
       "price": 19.9
     }
   ]
