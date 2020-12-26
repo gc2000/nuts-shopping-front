@@ -20,7 +20,7 @@ export default class Products extends Component {
   render() {
     const { product } = this.state;
     return (
-      <div class="container-fluid">
+      <div className="container-fluid">
         <Fade bottom cascade>
           <ul className="products">
             {this.props.products.map((product) => (
