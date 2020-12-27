@@ -1,5 +1,4 @@
 import React from "react";
-import Products from "./components/Products";
 import data from "./data.json";
 import { Link } from "react-router-dom";
 
@@ -17,34 +16,48 @@ class Home extends React.Component {
           <video src="/videos/christmas.mp4" autoPlay loop muted />
           <h1> The Best Nuts In The World! </h1>
           <p>What are you waiting for?</p>
-        </div>
-        <div className="grid-container">
-          <main>
-            <div className="container-fluid">
-              <div>
-                <ul className="products">
-                  <li>
-                    <div className="product">
-                      <Link to="/products/xmas">
-                        <img src="/images/1.jpg" alt="Merry Christmas" />
-                        <p className="product-title"> Merry Christmas</p>
-                      </Link>
-                    </div>
-                  </li>
+          <div className="grid-container">
+            <main>
+              <div className="container-fluid">
+                <div>
+                  <ul className="promos">
+                    <li>
+                      <div className="promo">
+                        <Link to="/products/xmas">
+                          <img
+                            src="/images/xmas-promo.jpg"
+                            alt="Merry Christmas"
+                          />
+                          <p className="promo-title"> Holiday Top Picks </p>
+                          <p className="promo-text">
+                            It's the most wonderful time of the year... What's
+                            on your Christmas wishlist?
+                          </p>
+                        </Link>
+                      </div>
+                    </li>
 
-                  <li>
-                    <div className="product">
-                      <Link to="/products/mom">
-                        <img src="/images/2.jpg" alt="Mama's favorite" />
-                        <p className="product-title"> Mama's favorite</p>
-                      </Link>
-                    </div>
-                  </li>
-                </ul>
+                    <li>
+                      <div className="promo">
+                        <Link to="/products/mom">
+                          <img
+                            src="/images/mom-promo.jpg"
+                            alt="Mama's favorite"
+                          />
+                          <p className="promo-title"> For Mothers </p>
+                          <p className="promo-text">
+                            The Mothers Day Gift Basket for Mom
+                          </p>
+                        </Link>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
               </div>
-            </div>
-          </main>
+            </main>
+          </div>
         </div>
+        <footer>All right is reserved.</footer>
       </>
     );
   }

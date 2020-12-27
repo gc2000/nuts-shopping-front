@@ -103,12 +103,7 @@ class ProductList extends React.Component {
   render() {
     return (
       <div className="grid-container">
-        <header>
-          <a href="/">React Shopping Cart {this.state.promotion} 1</a>
-          <h2>{this.state.promotion}</h2>
-          <p>{this.props.promotion}</p>
-          <p>{this.props.location.pathname}</p>
-        </header>
+        {/* <header></header> */}
         <main>
           <div className="content">
             <div className="main">
