@@ -30,12 +30,16 @@ textarea {
   grid-template-columns: 1fr;
   height: 100%;
 }
-a {
+
+.promo a {
+  color: #fff;
+}
+
+.promo a:hover {
+  text-decoration: none; /* no underline */
   color: #000000;
 }
-a:hover {
-  text-decoration: none;
-}
+
 header {
   grid-area: header;
   background-color: #203040;
@@ -72,6 +76,46 @@ footer {
   flex: 1 20rem;
 }
 
+/* Promotion card */
+
+.promos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.promos li {
+  flex: 0 1 29rem;
+  height: 35rem;
+  padding: 1rem;
+  border: 0.1rem #c0c0c0 solid;
+  text-align: center;
+  align-items: left;
+  margin: 5px;
+}
+.promo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.promo img {
+  width: 37rem;
+  max-height: 24rem;
+}
+.promo-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.promo-text {
+  font-size: 1.8rem;
+  text-align: left;
+}
+
 /* products */
 
 .products {
@@ -87,7 +131,7 @@ footer {
 .products li {
   flex: 0 1 29rem;
   height: 47rem;
-  padding: 1rem;
+  padding: 1.5rem;
   border: 0.1rem #c0c0c0 solid;
   text-align: center;
   align-items: left;
@@ -103,6 +147,19 @@ footer {
   width: 37rem;
   max-height: 24rem;
 }
+.product img:hover {
+  transition: transform 0.7s;
+  transform: scale(1.05);
+}
+.product a {
+  color: #000000;
+}
+
+.product a:hover {
+  text-decoration: none; /* no underline */
+  color: #c0c0c0;
+}
+
 .product-title {
   font-size: 2rem;
   font-weight: bold;
@@ -110,7 +167,6 @@ footer {
 .product-text {
   font-size: 1.8rem;
   text-align: left;
-  color: #695d5d;
 }
 .product-price {
   display: flex;
@@ -135,7 +191,7 @@ footer {
   border: 0.2rem #808080 solid;
 }
 .button.primary {
-  background-color: #f0c040;
+  background-color: #e7ddd2;
 }
 
 /* Filter */
