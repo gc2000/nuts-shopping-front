@@ -21,36 +21,36 @@ export default class Products extends Component {
     const { product } = this.state;
     return (
       <div className="container-fluid">
-        <Fade bottom cascade>
-          <ul className="products">
-            {this.props.products.map((product) => (
-              <li key={product._id}>
-                <div className="product">
-                  <a
-                    href={"#" + product._id}
-                    onClick={() => this.openModal(product)}
+        {/* <Fade bottom cascade> */}
+        <ul className="products">
+          {this.props.products.map((product) => (
+            <li key={product._id}>
+              <div className="product">
+                <a
+                  href={"#" + product._id}
+                  onClick={() => this.openModal(product)}
+                >
+                  <img src={product.image} alt={product.title}></img>
+                  <p className="product-title">{product.title}</p>
+                </a>
+                <p className="product-text">
+                  {product.description.substring(0, 100)}
+                  {"..."}
+                </p>
+                <div className="product-price">
+                  <div>{formatCurrency(product.price)}</div>
+                  <button
+                    onClick={() => this.props.addToCart(product)}
+                    className="button primary"
                   >
-                    <img src={product.image} alt={product.title}></img>
-                    <p className="product-title">{product.title}</p>
-                  </a>
-                  <p className="product-text">
-                    {product.description.substring(0, 100)}
-                    {"..."}
-                  </p>
-                  <div className="product-price">
-                    <div>{formatCurrency(product.price)}</div>
-                    <button
-                      onClick={() => this.props.addToCart(product)}
-                      className="button primary"
-                    >
-                      Add To Cart
-                    </button>
-                  </div>
+                    Add To Cart
+                  </button>
                 </div>
-              </li>
-            ))}
-          </ul>
-        </Fade>
+              </div>
+            </li>
+          ))}
+        </ul>
+        {/* </Fade> */}
         {product && (
           <Modal isOpen={true} onRequestClose={this.closeModal}>
             <Zoom>

@@ -63,6 +63,22 @@ class ProductList extends React.Component {
     this.setState({ cartItems });
     localStorage.setItem("cartItems", JSON.stringify(cartItems));
   };
+
+  updateCartQty = (product, qty) => {
+    const cartItems = this.state.cartItems.slice();
+    cartItems.forEach((item) => {
+      if (item._id === product._id) {
+        if (qty > 0) {
+          item.count = qty;
+        } else {
+          alert("Minimum quantity is 1 piece.");
+        }
+      }
+    });
+    this.setState({ cartItems });
+    localStorage.setItem("cartItems", JSON.stringify(cartItems));
+  };
+
   sortProducts = (event) => {
     // impl
     const sort = event.target.value;
@@ -124,6 +140,7 @@ class ProductList extends React.Component {
                 cartItems={this.state.cartItems}
                 removeFromCart={this.removeFromCart}
                 createOrder={this.createOrder}
+                updateCartQty={this.updateCartQty}
               />
             </div>
           </div>

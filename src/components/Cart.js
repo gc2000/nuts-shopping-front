@@ -15,6 +15,10 @@ export default class Cart extends Component {
   handleInput = (e) => {
     this.setState({ [e.target.name]: e.target.value });
   };
+  handleChangeQty = (e) => {
+    console.log(e.target.value);
+    console.log(this.props.cartItems);
+  };
   createOrder = (e) => {
     e.preventDefault();
     const order = {
@@ -48,7 +52,18 @@ export default class Cart extends Component {
                     <div>
                       <div>{item.title}</div>
                       <div className="right">
-                        {formatCurrency(item.price)} x {item.count}{" "}
+                        {/* {formatCurrency(item.price)} x {item.count}{" "} */}
+                        {formatCurrency(item.price)} x{" "}
+                        <input
+                          id="qty"
+                          type="number"
+                          min="1"
+                          value={item.count}
+                          style={{ width: "8rem" }}
+                          onChange={(e) =>
+                            this.props.updateCartQty(item, e.target.value)
+                          }
+                        />{" "}
                         <button
                           className="button"
                           onClick={() => this.props.removeFromCart(item)}
