@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import formatCurrency from "../util";
-import Fade from "react-reveal/Fade";
+// import Fade from "react-reveal/Fade";
 import Modal from "react-modal";
 import Zoom from "react-reveal/Zoom";
 
@@ -11,6 +11,7 @@ export default class Products extends Component {
       product: null,
     };
   }
+
   openModal = (product) => {
     this.setState({ product });
   };
@@ -52,7 +53,11 @@ export default class Products extends Component {
         </ul>
         {/* </Fade> */}
         {product && (
-          <Modal isOpen={true} onRequestClose={this.closeModal}>
+          <Modal
+            isOpen={true}
+            onRequestClose={this.closeModal}
+            className="Modal"
+          >
             <Zoom>
               <button className="close-modal" onClick={this.closeModal}>
                 x
@@ -74,7 +79,7 @@ export default class Products extends Component {
                     ))}
                   </p>
                   <div className="product-price">
-                    <div>{formatCurrency(product.price)}</div>
+                    <div> Price : {formatCurrency(product.price)}</div>
                     <button
                       className="button primary"
                       onClick={() => {

@@ -9,6 +9,7 @@ function Navbar() {
         <div className="navbar-container">
           <Link to="/" className="navbar-logo">
             iNuts
+            <img src="images/inuts-logo.svg" alt="logo" />
             {/* <i className="fab fa-typo3" /> */}
           </Link>
 
@@ -28,12 +29,6 @@ function Navbar() {
             <li className="nav-item">
               <Link to="/signup" className="nav-links">
                 Sign Up
-              </Link>
-            </li>
-
-            <li className="nav-item">
-              <Link to="/contact" className="nav-links">
-                Contact Us
               </Link>
             </li>
           </ul>

@@ -17,7 +17,7 @@ button,
 textarea {
   font-size: 2rem;
   /* font-family: "Andika New Basic", Arial, Helvetica, sans-serif; */
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .grid-container {
@@ -30,7 +30,9 @@ textarea {
   grid-template-columns: 1fr;
   height: 100%;
 }
-
+.container-fluid {
+  display: flex;
+}
 .promo a {
   color: #fff;
 }
@@ -270,10 +272,11 @@ input {
 }
 /*Product Details */
 .product-details {
+  margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  max-height: 96vh;
+  max-height: 30vh;
 }
 .product-details img {
   /* max-height: 100vh; */
@@ -285,9 +288,20 @@ input {
   flex: 1 1;
   margin: 1rem;
 }
+
+.Modal {
+  position: absolute;
+  top: 130px;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
+  background-color: #ffffff;
+  border: #776262 1px solid;
+}
+
 .close-modal {
   position: absolute;
-  right: 1rem;
+  right: 2rem;
   top: 2.5rem;
   z-index: 1000;
 }
