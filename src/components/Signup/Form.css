@@ -31,7 +31,7 @@
 
 .form-img {
   width: 80%;
-  height: 80%;
+  height: 60%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -39,8 +39,8 @@
 }
 
 .form-img-2 {
-  width: 60%;
-  height: 60%;
+  width: 50%;
+  height: 40%;
   position: absolute;
   top: 50%;
   left: 50%;
